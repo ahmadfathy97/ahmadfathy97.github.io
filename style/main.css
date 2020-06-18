@@ -392,7 +392,8 @@ header h2.job-desc{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: var(--black)
+  background: var(--black);
+  transition: all 0s ease;
 }
 .loader{
   transition: all 0s ease;

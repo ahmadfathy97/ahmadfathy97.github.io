@@ -13,6 +13,19 @@
       "group": "frontend"
     },
     {
+      "name": "Zandig",
+      "description": "<div class='work-desc'><p>Laptops shop landing page.</p></div>",
+      "preview": "https://laptops-shop.netlify.app/",
+      "code": "https://github.com/ahmadfathy97/laptops-shop",
+      "image": "laptop-shops.png",
+      "languages": [
+        "html",
+        "css",
+        "js"
+      ],
+      "group": "frontend"
+    },
+    {
       "name": "Genuine",
       "description": "<div class='work-desc'><p>Genuine is an Ecommerce website you can see the products or search for specific one and buy it by using PayPal, this website has a dashboard that enabled the owner to add and update and remove the products and also enabling him to know who bought and what he bought.</p></div>",
       "preview": "http://genuine-beta.herokuapp.com/",
