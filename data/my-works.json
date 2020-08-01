@@ -13,6 +13,17 @@
       "group": "frontend"
     },
     {
+      "name": "برايل بالمصري",
+      "description": "<div class='work-desc'><p>description not found 404 :)</p></div>",
+      "preview": "https://braille-belmasry.netlify.app/",
+      "image": "braille-belmasry.png",
+      "languages": [
+        "bootstrap",
+        "responsive voice API"
+      ],
+      "group": "frontend"
+    },
+    {
       "name": "Zandig",
       "description": "<div class='work-desc'><p>Laptops shop landing page.</p></div>",
       "preview": "https://laptops-shop.netlify.app/",
