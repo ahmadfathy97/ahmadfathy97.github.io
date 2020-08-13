@@ -37,7 +37,7 @@ body{
   display: inline-block;
   text-align: center;
   border: 1px solid var(--dark-color);
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   text-decoration: none;
   font-weight: bold;
   cursor: pointer;
@@ -159,17 +159,18 @@ header h2.job-desc{
 }
 /* my job section */
 .my-job ul{
-    padding-top: 60px;
+  margin-top: 60px;
+  border-left: 5px solid;
 }
-.my-job ul li{
+.my-job ul li {
   padding: 5px;
   padding-left: 30px;
   position: relative;
   list-style-type: none;
   font-size: 26px;
-  margin: 10px auto;
-  background: #f6f6f6; 
-  width: 90%;
+  margin: 10px auto 10px 0;
+  background: #f6f6f6;
+  width: 100%;
   color: #393939;
   box-shadow: 0 2px 5px var(--dark-color);
 }
