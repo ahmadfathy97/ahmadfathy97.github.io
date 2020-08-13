@@ -162,15 +162,16 @@ header h2.job-desc{
     padding-top: 60px;
 }
 .my-job ul li{
-    padding: 5px;
-    padding-left: 30px;
-    position: relative;
-    list-style-type: none;
-    font-size: 26px;
-    margin: 10px auto;
-    background: var(--dark-color);
-    width: 90%;
-    color: var(--white);
+  padding: 5px;
+  padding-left: 30px;
+  position: relative;
+  list-style-type: none;
+  font-size: 26px;
+  margin: 10px auto;
+  /* background: #f6f6f6; */
+  width: 90%;
+  color: #393939;
+  box-shadow: 0 2px 5px var(--dark-color);
 }
 .my-job ul li:before{
     content: '';
@@ -204,18 +205,18 @@ header h2.job-desc{
 
 /* Skills section */
 .lang{
-    display: inline-block;
-    padding: 1px 8px;
-    padding-left: 30px;
-    text-align: center;
-    background: var(--dark-color);;
-    color: var(--white);
-    border-radius: 20px;
-    margin: 10px;
-    box-shadow: 0px 2px 5px var(--black);
-    font-size: 22px;
-    position: relative;
-    border: 2px solid var(--black);
+  display: inline-block;
+  padding: 1px 20px;
+  padding-left: 30px;
+  text-align: center;
+  /* background: var(--dark-color); */
+  color: #242424;
+  /* border-radius: 20px; */
+  margin: 10px;
+  box-shadow: 0px 2px 5px var(--black);
+  font-size: 22px;
+  position: relative;
+  /* border: 2px solid var(--black);*/
 }
 .lang:after{
     content: '';
@@ -232,18 +233,18 @@ header h2.job-desc{
 .lang:hover:after{
     background: var(--main-gradient);
 }
-.Intermediate{
+/*.Intermediate{
   background: #444;
 }
 .little{
     background: #666;
-}
+}*/
+/*.intention{
+background: #999;
+}*/
 .sub-head3{
     font-size: 33px;
     margin: 20px;
-}
-.intention{
-    background: #999;
 }
 .my-works-conatiner{
   padding-bottom: 0;
