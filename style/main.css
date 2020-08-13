@@ -168,7 +168,7 @@ header h2.job-desc{
   list-style-type: none;
   font-size: 26px;
   margin: 10px auto;
-  /* background: #f6f6f6; */
+  background: #f6f6f6; 
   width: 90%;
   color: #393939;
   box-shadow: 0 2px 5px var(--dark-color);
@@ -209,7 +209,7 @@ header h2.job-desc{
   padding: 1px 20px;
   padding-left: 30px;
   text-align: center;
-  /* background: var(--dark-color); */
+  background: #f6f6f6;
   color: #242424;
   /* border-radius: 20px; */
   margin: 10px;
