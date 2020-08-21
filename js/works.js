@@ -37,13 +37,16 @@ function appendAllWorks(works) {
     myWorks.innerHTML += `
     <div class="work" data-group="${work.group}">
       <div class="img-container">
-        <img src="images/${work.image}" loading="lazy" alt="${work.name}">
+        <img class="cover" src="images/projects/${work.image}" loading="lazy" alt="${work.name}">
       </div>
       <h3><span>${work.name}</span></h3>
       ${work.description}
       <div class="languages">
         ${work.languages.map(lang=>{
-          return '<span>' + lang + '</span>'
+          return `
+          <div class="used-lang" title="${lang.name}">
+            <img src="images/langs/${lang.icon}" alt="${lang.name}" title="${lang.name}" />
+          </div>`;
         })}
       </div>
       <a href="${work.preview}" class="btn btn-colorful" target="_blank" rel="noopener">Preview</a>

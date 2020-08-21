@@ -66,6 +66,9 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: url('../images/section-bg.png') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .sub-head{
     padding: 2px;
@@ -270,7 +273,7 @@ background: #999;
   overflow: hidden;
   /*background: var(--main-gradient)*/
 }
-.my-works .work img{
+.my-works .work img.cover{
   background: var(--light-color);
   display: block;
   width: 100%;
@@ -279,7 +282,7 @@ background: #999;
   cursor: pointer;
   transition: all .3s ease;
 }
-.my-works .work img:hover{
+.my-works .work img.cover:hover{
   transform: scale(1.5,1.5);
 }
 .my-works .work h3{
@@ -310,14 +313,58 @@ background: #999;
   margin: 3px;
   border-bottom: 1px solid var(--dark-color);
 }
-.my-works .work .languages span{
+.my-works .work .languages .used-lang{
   display: inline-block;
+  margin: .5rem;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  filter: drop-shadow(0 0 5px #000);
+}
+.my-works .work .languages .used-lang img{
+  background: #fff !important;
+  border-radius: 5px;
+  position: absolute;
+  padding: .25rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.my-works .work .languages .used-lang:after {
+  content: attr(title);
+  position: absolute;
+  top: calc(-105% - 10px);
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 0;
   background: var(--dark-color);
-  color: var(--white);
-  padding: 3px;
-  margin: 2px
+  color: var(--light-color);
+  overflow: hidden;
+  text-align: center;
+  z-index: 9999;
 }
 
+.my-works .work .languages .used-lang:hover::after{
+  width: auto;
+  min-width: 120px;
+  padding: .25rem;
+  border-radius: 5px;
+}
+.my-works .work .languages .used-lang::before{
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-color: var(--dark-color);
+  transform: translate(-50%, 0);
+  display: none;
+}
+.my-works .work .languages .used-lang:hover::before{
+  display: block;
+}
 /* contact section */
 .contact{
     padding-top: 0;
