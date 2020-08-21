@@ -7,7 +7,7 @@ class randomCircles{
   show(){
     noStroke();
     circle(this.x, this.y, 10, 10);
-    let colors = ['#ff0', '#0ff', '#f0f'];
+    let colors = ['#ff0', '#e8e8e8', '#3282b8'];
     let clr = colors[Math.floor(Math.random() * colors.length)];
     fill(clr);
   }

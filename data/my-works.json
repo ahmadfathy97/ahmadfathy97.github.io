@@ -78,6 +78,10 @@
         {
           "name": "bootstrap",
           "icon": "bootstrap.png"
+        },
+        {
+          "name": "PayPal SDK",
+          "icon": "paypal.png"
         }
       ],
       "group": "fullstack"
