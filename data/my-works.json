@@ -65,20 +65,16 @@
       "image": "dad-jokes.png",
       "languages": [
         {
-          "name": "html",
-          "icon": "html5.png"
-        },
-        {
-          "name": "css",
-          "icon": "css3.png"
-        },
-        {
           "name": "vue.js",
           "icon": "vuejs.png"
         },
         {
           "name": "vuex",
           "icon": "vuex.png"
+        },
+        {
+          "name": "Nuxt",
+          "icon": "nuxt.ico"
         }
       ],
       "group": "frontend"
