@@ -58,6 +58,32 @@
       "group": "frontend"
     },
     {
+      "name": "Dad Jokes",
+      "description": "<div class='work-desc'><p>some funky dad jokes.</p></div>",
+      "preview": "https://funky-dad-jokes.netlify.app/",
+      "code": "https://github.com/ahmadfathy97/funky-jokes",
+      "image": "dad-jokes.png",
+      "languages": [
+        {
+          "name": "html",
+          "icon": "html5.png"
+        },
+        {
+          "name": "css",
+          "icon": "css3.png"
+        },
+        {
+          "name": "vue.js",
+          "icon": "vuejs.png"
+        },
+        {
+          "name": "vuex",
+          "icon": "vuex.png"
+        }
+      ],
+      "group": "frontend"
+    },
+    {
       "name": "Genuine",
       "description": "<div class='work-desc'><p>Genuine is an Ecommerce website you can see the products or search for specific one and buy it by using PayPal, this website has a dashboard that enabled the owner to add and update and remove the products and also enabling him to know who bought and what he bought.</p></div>",
       "preview": "http://genuine-beta.herokuapp.com/",
@@ -94,7 +120,7 @@
       "image": "blog.jpg",
       "languages": [
         {
-          "name": "vue",
+          "name": "vue.js",
           "icon": "vuejs.png"
         },
         {
@@ -120,6 +146,14 @@
       "image": "elite-chat.jpg",
       "languages": [
         {
+          "name": "html",
+          "icon": "html5.png"
+        },
+        {
+          "name": "css",
+          "icon": "css3.png"
+        },
+        {
           "name": "js",
           "icon": "js.png"
         }
@@ -133,6 +167,14 @@
       "code": "https://github.com/ahmadfathy97/Stupid-Game",
       "image": "stupid-game.jpg",
       "languages": [
+        {
+          "name": "html",
+          "icon": "html5.png"
+        },
+        {
+          "name": "css",
+          "icon": "css3.png"
+        },
         {
           "name": "p5.js",
           "icon": "p5js.ico"
@@ -170,6 +212,14 @@
       "image": "flaming-rain.jpg",
       "languages": [
         {
+          "name": "html",
+          "icon": "html5.png"
+        },
+        {
+          "name": "css",
+          "icon": "css3.png"
+        },
+        {
           "name": "p5.js",
           "icon": "p5js.ico"
         }
@@ -204,6 +254,10 @@
       "code": "https://codepen.io/ahmadfathy/pen/apRrmm",
       "image": "panda.jpg",
       "languages": [
+        {
+          "name": "html",
+          "icon": "html5.png"
+        },
         {
           "name": "css",
           "icon": "css3.png"
