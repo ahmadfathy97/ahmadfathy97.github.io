@@ -36,26 +36,17 @@
       "group": "frontend"
     },
     {
-      "name": "Zandig",
-      "description": "<div class='work-desc'><p>Laptops shop landing page.</p></div>",
-      "preview": "https://laptops-shop.netlify.app/",
-      "code": "https://github.com/ahmadfathy97/laptops-shop",
-      "image": "laptops-shop.png",
+      "name": "10 JS Projects",
+      "description": "<div class='work-desc'><p>I love to challenge myself so I decided to make 10 projects with different technologies as I could.</p><p>will be finished by 31/10/2020</p></div>",
+      "preview": "https://github.com/ahmadfathy97/10-js-projects",
+      "image": "10-js-projects-cover.png",
       "languages": [
-        {
-          "name": "html",
-          "icon": "html5.png"
-        },
-        {
-          "name": "css",
-          "icon": "css3.png"
-        },
         {
           "name": "js",
           "icon": "js.png"
         }
       ],
-      "group": "frontend"
+      "group": "messingaround"
     },
     {
       "name": "Dad Jokes",
@@ -157,6 +148,28 @@
       "group": "messingaround"
     },
     {
+      "name": "Zandig",
+      "description": "<div class='work-desc'><p>Laptops shop landing page.</p></div>",
+      "preview": "https://laptops-shop.netlify.app/",
+      "code": "https://github.com/ahmadfathy97/laptops-shop",
+      "image": "laptops-shop.png",
+      "languages": [
+        {
+          "name": "html",
+          "icon": "html5.png"
+        },
+        {
+          "name": "css",
+          "icon": "css3.png"
+        },
+        {
+          "name": "js",
+          "icon": "js.png"
+        }
+      ],
+      "group": "frontend"
+    },
+    {
       "name": "Stupid Game",
       "description": "<div class='work-desc'><p>I used to hate this game so guess what? I made it.</p></div>",
       "preview": "https://very-stupid-game.netlify.com/",
@@ -199,6 +212,27 @@
         }
       ],
       "group": "cooperated"
+    },
+    {
+      "name": "My SVG collection",
+      "description": "<div class='work-desc'><p>My SVG Collection</p></div>",
+      "preview": "https://github.com/ahmadfathy97/My-SVG-Collection",
+      "image": "svg.jpg",
+      "languages": [
+        {
+          "name": "sass",
+          "icon": "sass.png"
+        },
+        {
+          "name": "pugjs",
+          "icon": "pugjs.png"
+        },
+        {
+          "name": "gsap",
+          "icon": "gsap.png"
+        }
+      ],
+      "group": "messingaround"
     },
     {
       "name": "Flaming Rain",
@@ -257,27 +291,6 @@
         {
           "name": "css",
           "icon": "css3.png"
-        }
-      ],
-      "group": "messingaround"
-    },
-    {
-      "name": "My SVG collection",
-      "description": "<div class='work-desc'><p>My SVG Collection</p></div>",
-      "preview": "https://github.com/ahmadfathy97/My-SVG-Collection",
-      "image": "svg.jpg",
-      "languages": [
-        {
-          "name": "sass",
-          "icon": "sass.png"
-        },
-        {
-          "name": "pugjs",
-          "icon": "pugjs.png"
-        },
-        {
-          "name": "gsap",
-          "icon": "gsap.png"
         }
       ],
       "group": "messingaround"
