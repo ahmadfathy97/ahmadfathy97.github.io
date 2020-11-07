@@ -23,6 +23,7 @@
     "SVG",
     "Three.js",
     "P5.js",
+    "Socket.io",
     "React"
   ],
   "little":[

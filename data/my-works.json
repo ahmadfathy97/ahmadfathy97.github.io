@@ -37,7 +37,7 @@
     },
     {
       "name": "10 JS Projects",
-      "description": "<div class='work-desc'><p>I love to challenge myself so I decided to make 10 projects with different technologies as I could.</p><p>will be finished by 31/10/2020</p></div>",
+      "description": "<div class='work-desc'><p>I love to challenge myself so I decided to make 10 projects with different technologies as I could.</p><p>will be finished by 30/11/2020</p></div>",
       "preview": "https://github.com/ahmadfathy97/10-js-projects",
       "image": "10-js-projects-cover.png",
       "languages": [
@@ -47,28 +47,6 @@
         }
       ],
       "group": "messingaround"
-    },
-    {
-      "name": "Dad Jokes",
-      "description": "<div class='work-desc'><p>some funky dad jokes.</p></div>",
-      "preview": "https://funky-dad-jokes.netlify.app/",
-      "code": "https://github.com/ahmadfathy97/funky-jokes",
-      "image": "dad-jokes.png",
-      "languages": [
-        {
-          "name": "vue.js",
-          "icon": "vuejs.png"
-        },
-        {
-          "name": "vuex",
-          "icon": "vuex.png"
-        },
-        {
-          "name": "Nuxt",
-          "icon": "nuxt.ico"
-        }
-      ],
-      "group": "frontend"
     },
     {
       "name": "Genuine",
@@ -148,6 +126,50 @@
       "group": "messingaround"
     },
     {
+      "name": "Techno Egaby",
+      "description": "<div class='work-desc'><p>Techno Egaby is an initiative from the Department of Education Technology, Faculty of Specific Education, Fayoum University, to employ tools and content of e-learning to serve the community to raise awareness against the Corona virus.</p></div>",
+      "preview": "http://techno-egaby.c1.biz/",
+      "code": "https://github.com/ahmadfathy97/techno-Egaby",
+      "image": "techno-egaby.jpg",
+      "languages": [
+        {
+          "name": "php",
+          "icon": "php.png"
+        },
+        {
+          "name": "mysql",
+          "icon": "mysql.png"
+        },
+        {
+          "name": "bootstrap",
+          "icon": "bootstrap.png"
+        }
+      ],
+      "group": "cooperated"
+    },
+    {
+      "name": "Dad Jokes",
+      "description": "<div class='work-desc'><p>some funky dad jokes.</p></div>",
+      "preview": "https://funky-dad-jokes.netlify.app/",
+      "code": "https://github.com/ahmadfathy97/funky-jokes",
+      "image": "dad-jokes.png",
+      "languages": [
+        {
+          "name": "vue.js",
+          "icon": "vuejs.png"
+        },
+        {
+          "name": "vuex",
+          "icon": "vuex.png"
+        },
+        {
+          "name": "Nuxt",
+          "icon": "nuxt.ico"
+        }
+      ],
+      "group": "frontend"
+    },
+    {
       "name": "Zandig",
       "description": "<div class='work-desc'><p>Laptops shop landing page.</p></div>",
       "preview": "https://laptops-shop.netlify.app/",
@@ -192,28 +214,6 @@
       "group": "messingaround"
     },
     {
-      "name": "Techno Egaby",
-      "description": "<div class='work-desc'><p>Techno Egaby is an initiative from the Department of Education Technology, Faculty of Specific Education, Fayoum University, to employ tools and content of e-learning to serve the community to raise awareness against the Corona virus.</p></div>",
-      "preview": "http://techno-egaby.c1.biz/",
-      "code": "https://github.com/ahmadfathy97/techno-Egaby",
-      "image": "techno-egaby.jpg",
-      "languages": [
-        {
-          "name": "php",
-          "icon": "php.png"
-        },
-        {
-          "name": "mysql",
-          "icon": "mysql.png"
-        },
-        {
-          "name": "bootstrap",
-          "icon": "bootstrap.png"
-        }
-      ],
-      "group": "cooperated"
-    },
-    {
       "name": "My SVG collection",
       "description": "<div class='work-desc'><p>My SVG Collection</p></div>",
       "preview": "https://github.com/ahmadfathy97/My-SVG-Collection",
@@ -255,27 +255,6 @@
         }
       ],
       "group": "messingaround"
-    },
-    {
-      "name": "No Name",
-      "description": "<div class='work-desc'><p>Still Working on it</p></div>",
-      "preview": "#",
-      "image": "no-name-yet.jpg",
-      "languages": [
-        {
-          "name": "express.js",
-          "icon": "expressjs.png"
-        },
-        {
-          "name": "mongodb",
-          "icon": "mongodb.png"
-        },
-        {
-          "name": "bootstrap",
-          "icon": "bootstrap.png"
-        }
-      ],
-      "group": "fullstack"
     },
     {
       "name": "Panda",
