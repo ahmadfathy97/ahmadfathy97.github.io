@@ -258,6 +258,7 @@ background: #999;
 .my-works{
   display: flex;
   align-items: center;justify-content: center;flex-wrap: wrap;
+  width: 100%
 }
 .my-works .work{
   width: calc(100%/3 - 3rem);
