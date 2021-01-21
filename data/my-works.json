@@ -1,0 +1,322 @@
+{
+  "All":[
+    {
+      "name": "ICC",
+      "description": "<div class='work-desc'><p>This project is my graduation project that helps people to know more about the inner components of the computer like ram and processor and know how it looks like, its value and its job by giving the user an interactive 3d object and some information about it.</p><p>You can also download an offline version of it.</p></div>",
+      "preview": "https://ahmadfathy97.github.io/icc",
+      "code": "https://github.com/ahmadfathy97/icc",
+      "image": "icc.png",
+      "languages": [
+        {
+          "name": "threejs",
+          "icon": "threejs.ico"
+        },
+        {
+          "name": "electron",
+          "icon": "electron.ico"
+        }
+      ],
+      "group": "frontend"
+    },
+    {
+      "name": "برايل بالمصري",
+      "description": "<div class='work-desc'><p>description not found 404 :)</p></div>",
+      "preview": "https://braille-belmasry.netlify.app/",
+      "image": "braille-belmasry.png",
+      "languages": [
+        {
+          "name": "bootstrap",
+          "icon": "bootstrap.png"
+        },
+        {
+          "name": "responsive voice",
+          "icon": "responsivevoice.png"
+        }
+      ],
+      "group": "frontend"
+    },
+    {
+      "name": "10 JS Projects",
+      "description": "<div class='work-desc'><p>I love to challenge myself so I decided to make 10 projects with different technologies as I could.</p></div>",
+      "preview": "https://github.com/ahmadfathy97/10-js-projects",
+      "image": "10-js-projects-cover.png",
+      "languages": [
+        {
+          "name": "js",
+          "icon": "js.png"
+        },
+        {
+          "name": "vue.js",
+          "icon": "vuejs.png"
+        },
+        {
+          "name": "vuex",
+          "icon": "vuex.png"
+        },
+        {
+          "name": "express.js",
+          "icon": "expressjs.png"
+        },
+        {
+          "name": "mongodb",
+          "icon": "mongodb.png"
+        },
+        {
+          "name": "ejs",
+          "icon": "ejs.jpg"
+        },
+        {
+          "name": "bootstrap",
+          "icon": "bootstrap.png"
+        },
+        {
+          "name": "socket.io",
+          "icon": "socket.io.png"
+        },
+        {
+          "name": "p5",
+          "icon": "p5js.ico"
+        },
+        {
+          "name": "face api",
+          "icon": "face api.png"
+        },
+        {
+          "name": "threejs",
+          "icon": "threejs.ico"
+        },
+        {
+          "name": "electron",
+          "icon": "electron.ico"
+        }
+      ],
+      "group": "messingaround"
+    },
+    {
+      "name": "Genuine",
+      "description": "<div class='work-desc'><p>Genuine is an Ecommerce website you can see the products or search for specific one and buy it by using PayPal, this website has a dashboard that enabled the owner to add and update and remove the products and also enabling him to know who bought and what he bought.</p></div>",
+      "preview": "http://genuine-beta.herokuapp.com/",
+      "image": "genuine.jpg",
+      "languages": [
+        {
+          "name": "express.js",
+          "icon": "expressjs.png"
+        },
+        {
+          "name": "mongodb",
+          "icon": "mongodb.png"
+        },
+        {
+          "name": "ejs",
+          "icon": "ejs.jpg"
+        },
+        {
+          "name": "bootstrap",
+          "icon": "bootstrap.png"
+        },
+        {
+          "name": "PayPal SDK",
+          "icon": "paypal.png"
+        }
+      ],
+      "group": "fullstack"
+    },
+    {
+      "name": "Habshtakanat",
+      "description": "<div class='work-desc'><p>This is a blog website.</p><p>In this blog website you can do a lot of things:</p><ul><li>post an article or edit it or delete it</li><li>follow some one</li><li>like an article</li><li>comment on an article</li><li>search for some one</li><li>reset your password if you forget it</li><li>edit your info</li><li>you also get some notifications</li></ul></div>",
+      "preview": "https://habshtakanat.netlify.app/",
+      "code": "https://github.com/ahmadfathy97/using-my-api-with-vue/",
+      "image": "blog.jpg",
+      "languages": [
+        {
+          "name": "vue.js",
+          "icon": "vuejs.png"
+        },
+        {
+          "name": "express.js",
+          "icon": "expressjs.png"
+        },
+        {
+          "name": "mongodb",
+          "icon": "mongodb.png"
+        },
+        {
+          "name": "bootstrap",
+          "icon": "bootstrap.png"
+        }
+      ],
+      "group": "fullstack"
+    },
+    {
+      "name": "Elite Chat",
+      "description": "<div class='work-desc'><p>robot chat with sound</p><ul><li>elite can tell you his name and his age</li><li>elite can tell you some jokes</li><li>elite can tell you the time and the date</li><li>elite can answer 'Yes or No' questions</li><li>elite can tell you some other stuff</li></ul></div>",
+      "preview": "http://elitechat.netlify.com",
+      "code": "https://github.com/ahmadfathy97/Elite-Chat",
+      "image": "elite-chat.jpg",
+      "languages": [
+        {
+          "name": "html",
+          "icon": "html5.png"
+        },
+        {
+          "name": "css",
+          "icon": "css3.png"
+        },
+        {
+          "name": "js",
+          "icon": "js.png"
+        }
+      ],
+      "group": "messingaround"
+    },
+    {
+      "name": "Techno Egaby",
+      "description": "<div class='work-desc'><p>Techno Egaby is an initiative from the Department of Education Technology, Faculty of Specific Education, Fayoum University, to employ tools and content of e-learning to serve the community to raise awareness against the Corona virus.</p></div>",
+      "preview": "http://techno-egaby.c1.biz/",
+      "code": "https://github.com/ahmadfathy97/techno-Egaby",
+      "image": "techno-egaby.jpg",
+      "languages": [
+        {
+          "name": "php",
+          "icon": "php.png"
+        },
+        {
+          "name": "mysql",
+          "icon": "mysql.png"
+        },
+        {
+          "name": "bootstrap",
+          "icon": "bootstrap.png"
+        }
+      ],
+      "group": "cooperated"
+    },
+    {
+      "name": "Dad Jokes",
+      "description": "<div class='work-desc'><p>some funky dad jokes.</p></div>",
+      "preview": "https://funky-dad-jokes.netlify.app/",
+      "code": "https://github.com/ahmadfathy97/funky-jokes",
+      "image": "dad-jokes.png",
+      "languages": [
+        {
+          "name": "vue.js",
+          "icon": "vuejs.png"
+        },
+        {
+          "name": "vuex",
+          "icon": "vuex.png"
+        },
+        {
+          "name": "Nuxt",
+          "icon": "nuxt.ico"
+        }
+      ],
+      "group": "frontend"
+    },
+    {
+      "name": "Zandig",
+      "description": "<div class='work-desc'><p>Laptops shop landing page.</p></div>",
+      "preview": "https://laptops-shop.netlify.app/",
+      "code": "https://github.com/ahmadfathy97/laptops-shop",
+      "image": "laptops-shop.png",
+      "languages": [
+        {
+          "name": "html",
+          "icon": "html5.png"
+        },
+        {
+          "name": "css",
+          "icon": "css3.png"
+        },
+        {
+          "name": "js",
+          "icon": "js.png"
+        }
+      ],
+      "group": "frontend"
+    },
+    {
+      "name": "Stupid Game",
+      "description": "<div class='work-desc'><p>I used to hate this game so guess what? I made it.</p></div>",
+      "preview": "https://very-stupid-game.netlify.com/",
+      "code": "https://github.com/ahmadfathy97/Stupid-Game",
+      "image": "stupid-game.jpg",
+      "languages": [
+        {
+          "name": "html",
+          "icon": "html5.png"
+        },
+        {
+          "name": "css",
+          "icon": "css3.png"
+        },
+        {
+          "name": "p5.js",
+          "icon": "p5js.ico"
+        }
+      ],
+      "group": "messingaround"
+    },
+    {
+      "name": "My SVG collection",
+      "description": "<div class='work-desc'><p>My SVG Collection</p></div>",
+      "preview": "https://github.com/ahmadfathy97/My-SVG-Collection",
+      "image": "svg.jpg",
+      "languages": [
+        {
+          "name": "sass",
+          "icon": "sass.png"
+        },
+        {
+          "name": "pugjs",
+          "icon": "pugjs.png"
+        },
+        {
+          "name": "gsap",
+          "icon": "gsap.png"
+        }
+      ],
+      "group": "messingaround"
+    },
+    {
+      "name": "Flaming Rain",
+      "description": "<div class='work-desc'><p>I don't know what the heck is this anyway :)</p></div>",
+      "preview": "https://flaming-rain.netlify.com/",
+      "code": "https://github.com/ahmadfathy97/flaming-rain-game",
+      "image": "flaming-rain.jpg",
+      "languages": [
+        {
+          "name": "html",
+          "icon": "html5.png"
+        },
+        {
+          "name": "css",
+          "icon": "css3.png"
+        },
+        {
+          "name": "p5.js",
+          "icon": "p5js.ico"
+        }
+      ],
+      "group": "messingaround"
+    },
+    {
+      "name": "Panda",
+      "description": "<div class='work-desc'><p>this panda is one of my favourit works, I know it is pretty simple and I can make it better but I like it as it is and I love to put it here ♥.</p></div>",
+      "preview": "https://codepen.io/ahmadfathy/full/apRrmm",
+      "code": "https://codepen.io/ahmadfathy/pen/apRrmm",
+      "image": "panda.jpg",
+      "languages": [
+        {
+          "name": "html",
+          "icon": "html5.png"
+        },
+        {
+          "name": "css",
+          "icon": "css3.png"
+        }
+      ],
+      "group": "messingaround"
+    }
+  ]
+}
