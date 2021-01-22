@@ -44,7 +44,7 @@ a{
   padding: .25rem
 }
 .blog-nav .page-title{
-  font-size:40px;
+  font-size:36px;
 }
 .blog-nav .tags{
   font-size: 26px;
@@ -101,6 +101,9 @@ section{
 .post-title a:hover{
   color: var(--secondary-color);
 }
+.post-tags{
+  margin: 1rem auto;
+}
 .post-tag{
   display: inline-block;
   padding: .25rem .5rem;
@@ -112,12 +115,12 @@ section{
 .post-tag:hover{
   background: var(--secondary-color);
 }
-.post:has(> .post){
-  border: 1px solid #333;
+.post-container{
   background: transparent;
 }
-.post > .post{
-  width:100%;
+.post-container > .post{
+  width: 100%;
+  background: transparent;
 }
 .post img{
   max-width: 100%;
