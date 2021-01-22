@@ -1,12 +1,22 @@
 *{padding: 0;margin: 0;box-sizing: border-box;color: #ddd;font-family: Changa}
+a:focus{
+  outline: 1px solid #e04037
+}
 :root{
   --primary-color: #ddd;
-  --secondary-color: #e04037;
-  --bg-color: #232323;
+  --secondary-color: #5d6aff;
+  --bg-color: #262525;
+}
+body::-webkit-scrollbar{
+  background: var(--bg-color);
+}
+body::-webkit-scrollbar-thumb{
+  background: var(--secondary-color);
 }
 body{
-  background: #232323 url('/images/me.jpg') no-repeat;
-  background-size: cover;
+  /* background: #232323 url('/images/me.jpg') no-repeat;
+  background-size: cover; */
+  background: var(--bg-color);
   background-attachment: fixed;
 }
 a{
@@ -15,14 +25,26 @@ a{
 .window-height{
   min-height: 90vh
 }
+.section-title{
+  display: inline;
+  border-bottom: 2px solid #fff;
+}
+.err{
+  color: #fe477f;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+
 
 .blog-nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: .25rem
 }
 .blog-nav .page-title{
-  font-size: 44px;
+  font-size:40px;
 }
 .blog-nav .tags{
   font-size: 26px;
@@ -33,12 +55,14 @@ a{
 .blog-nav .tags:hover{
   background: var(--secondary-color)
 }
+
+
 .container{
-  max-width: 1200px;
+  max-width: 680px;
   min-height: 90vh;
   margin: 2rem auto;
   padding: 1rem 1.5rem;
-  background: rgba(22,22,22,.9);
+  /* background: rgba(22,22,22,.9); */
 }
 section{
   margin: 2rem auto;
@@ -48,25 +72,32 @@ section{
   font-size: 28px;
   color: #f8f8f8;
 }
+
+
 .posts{
-  display: grid;
+  min-height: 200px;
+  /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1rem;
-  grid-auto-flow: dense;
+  grid-auto-flow: dense; */
   /* display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap; */
 }
+
+
 .post, .tags-container{
-  background: #444;
+  margin: 1rem auto;
+  background: #333;
   padding: 1rem 1.5rem;
 }
 .post-title a{
   color: #e8e8e8;
-  font-size: 24px;
+  font-size: 28px;
   margin: .5rem auto;
 }
+
 .post-title a:hover{
   color: var(--secondary-color);
 }
@@ -81,6 +112,32 @@ section{
 .post-tag:hover{
   background: var(--secondary-color);
 }
+
+.post img{
+  max-width: 100%;
+}
+.post ul li{
+  margin: 2px 20px 2px 20px;
+  list-style-type: disc !important;
+}
+.post ol li{
+  margin: 2px 20px 2px 20px;
+  list-style-type: decimal !important;
+}
+
+.post pre{
+  padding: 1rem .5rem;
+  background: #222;
+  color: #f9f9f9;
+  overflow: auto
+}
+.post pre::-webkit-scrollbar{
+  background: var(--bg-color);
+}
+.post pre::-webkit-scrollbar-thumb{
+  background: var(--secondary-color)
+}
+
 .rtl{
   text-align: right;
   direction: rtl;

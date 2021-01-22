@@ -22,50 +22,26 @@
       <a href="/blog/tags" class="tags">tags</a>
     </nav>
     <section class="window-height">
-      <h2 class="section-title">tag name</h2>
-      <div class="posts">
-        <div class="post">
-          <h3 class="post-title"><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h3>
-          <h5>12-02-2020 10:30am</h5>
-          <div class="post-tags">
-            <a href="#" class="post-tag">tag1</a>
-            <a href="#" class="post-tag">tag1</a>
-            <a href="#" class="post-tag">tag1</a>
-            <a href="#" class="post-tag">tag1</a>
-          </div>
-        </div>
-
-        <div class="post">
-          <h3 class="post-title"><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h3>
-          <h5>12-02-2020 10:30am</h5>
-          <div class="post-tags">
-            <a href="#" class="post-tag">tag1</a>
-            <a href="#" class="post-tag">tag1</a>
-            <a href="#" class="post-tag">tag1</a>
-            <a href="#" class="post-tag">tag1</a>
-          </div>
-        </div>
+      <h2 class="section-title" id="section-title">tag name</h2>
+      <div class="posts" id="posts-container">
+        Loading...
       </div>
     </section>
 
     <footer>
       <div class="social">
-        <a title="github" href="https://github.com/ahmadfathy97" target="_blank" rel="noopener">
+        <a aria-label="github link" title="github" href="https://github.com/ahmadfathy97" target="_blank" rel="noopener">
           <img src="/images/github.svg" alt="github">
         </a>
-        <a title="codepen" href="https://codepen.io/ahmadfathy" target="_blank" rel="noopener">
+        <a aria-label="codepen link" title="codepen" href="https://codepen.io/ahmadfathy" target="_blank" rel="noopener">
           <img src="/images/codepen.svg" alt="codepen">
         </a>
-        <a title="twitter" href="https://twitter.com/ahmad_fathy97" target="_blank" rel="noopener">
+        <a aria-label="twitter link" title="twitter" href="https://twitter.com/ahmad_fathy97" target="_blank" rel="noopener">
           <img src="/images/twitter.svg" alt="twitter">
         </a>
       </div>
     </footer>
   </div>
-  <script type="text/javascript">
-    let params = new URLSearchParams(document.location.search.substring(1)),
-    name = params.get("name");
-    console.log(name)
-  </script>
+  <script src="../js/tag.js"="text/javascript"></script>
 </body>
 </html>
