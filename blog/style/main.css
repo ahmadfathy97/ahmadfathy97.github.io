@@ -112,8 +112,12 @@ section{
 .post-tag:hover{
   background: var(--secondary-color);
 }
-.post .post{
-  border: 1px solid #333
+.post:has(> .post){
+  border: 1px solid #333;
+  background: transparent;
+}
+.post > .post{
+  width:100%;
 }
 .post img{
   max-width: 100%;
