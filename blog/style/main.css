@@ -89,6 +89,7 @@ section{
 
 .post, .tags-container{
   margin: 1rem auto;
+  background: #333;
   padding: 1rem 1.5rem;
 }
 .post-title a{
