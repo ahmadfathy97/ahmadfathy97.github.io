@@ -89,7 +89,6 @@ section{
 
 .post, .tags-container{
   margin: 1rem auto;
-  background: #333;
   padding: 1rem 1.5rem;
 }
 .post-title a{
@@ -112,7 +111,9 @@ section{
 .post-tag:hover{
   background: var(--secondary-color);
 }
-
+.post .post{
+  border: 1px solid #333
+}
 .post img{
   max-width: 100%;
 }

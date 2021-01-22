@@ -6,6 +6,10 @@ fetch(`https://ahmad-fathy-blog.herokuapp.com/api/posts/${title}`)
   console.log(data);
   if(data.success){
     appendPost(data.post);
+    document.title = 'Ahmad Fathy - ' + post.title;
+    document.head.innerHTML += `
+      <meta name="description" content="${post.title}"/>
+    `
   } else {
     appendError(data.msg)
   }
