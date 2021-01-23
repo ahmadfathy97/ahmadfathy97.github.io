@@ -1,4 +1,4 @@
-*{padding: 0;margin: 0;box-sizing: border-box;color: #ddd;font-family: Changa}
+*{padding: 0;margin: 0;box-sizing: border-box;color: #ddd;font-family: Changa;word-wrap: break-word;}
 a:focus{
   outline: 1px solid #e04037
 }
@@ -115,6 +115,8 @@ section{
 .post-tag:hover{
   background: var(--secondary-color);
 }
+
+
 .post-container{
   background: transparent;
 }
@@ -122,8 +124,14 @@ section{
   width: 100%;
   background: transparent;
 }
+.post-container .post a:not(.post-tag) {
+  color: var(--secondary-color);
+}
+
 .post img{
   max-width: 100%;
+  display: block;
+  margin: auto
 }
 .post ul li{
   margin: 2px 20px 2px 20px;
@@ -141,7 +149,15 @@ section{
   overflow: auto;
   direction: ltr !important;
   text-align: left !important;
+  margin: .5rem auto
 }
+.post hr{
+  width: 30%;
+  margin: 1rem auto;
+  height: 0;
+  border: 2px dashed var(--secondary-color);
+}
+
 .post pre::-webkit-scrollbar{
   background: var(--bg-color);
 }
