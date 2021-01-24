@@ -47,7 +47,7 @@ function appendAllWorks(works) {
           <div class="used-lang" title="${lang.name}">
             <img src="images/langs/${lang.icon}" alt="${lang.name}" title="${lang.name}" />
           </div>`;
-        })}
+        }).join(',')}
       </div>
       <a href="${work.preview}" class="btn btn-colorful" target="_blank" rel="noopener">Preview</a>
       ${work.code ? '<a href="' + work.code + '" class="btn btn-colorful" target="_blank" rel="noopener">Code</a>': ''}
