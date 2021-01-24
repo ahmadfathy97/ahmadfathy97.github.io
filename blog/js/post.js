@@ -1,5 +1,6 @@
 let params = new URLSearchParams(document.location.search.substring(1)),
 title = params.get("title");
+const HOST = window.location.hostname || window.location.host;
 fetch(`https://ahmad-fathy-blog.herokuapp.com/api/posts/${title}`)
 .then(res => res.json())
 .then(data => {
@@ -10,6 +11,8 @@ fetch(`https://ahmad-fathy-blog.herokuapp.com/api/posts/${title}`)
     document.getElementById('metaDesc').content = `
       <meta name="description" content="${data.post.title}"/>
     `
+    document.getElementById('facebook-btn').href = `http://www.facebook.com/sharer.php?p[url]=https://${HOST}/blog/post?title=${data.post.dashedTitle}`;
+    document.getElementById('twitter-btn').href = `https://twitter.com/intent/tweet?text=https://${HOST}/blog/post?title=${data.post.dashedTitle}`;
   } else {
     appendError(data.msg)
   }
