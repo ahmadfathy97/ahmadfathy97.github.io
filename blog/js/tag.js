@@ -28,7 +28,7 @@ function htmlPost(post){
   return `
   <div class="post ${post.dir == 'rtl' ? 'rtl' : ''}" >
     <h3 class="post-title"><a href="/blog/post?title=${post.dashedTitle}">${post.title}</a></h3>
-    <h5>${post.created_at}</h5>
+    <h5>${dateHelper(post.created_at)}</h5>
     <div class="post-tags">
       ${post.tags.map(tag => '<a href="/blog/tag?name=' + tag + '" class="post-tag">#' + tag + '</a>' ).join('')}
     </div>
@@ -38,4 +38,11 @@ function htmlPost(post){
 
 function appendError(err){
   postsContainer.innerHTML = `<p class="err">${err}</p>`;
+}
+
+let months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+function dateHelper(date){
+  let dateArr = new Date(Number.parseInt(date)).toLocaleDateString().split('/');
+  console.log(dateArr);
+  return months[dateArr[0] - 1] + ' ' + dateArr[1] + ' ' + dateArr[2];
 }
