@@ -1,18 +1,18 @@
 let params = new URLSearchParams(document.location.search.substring(1)),
 title = params.get("title");
-const LINK = window.location.href;
+const LINK = window.location.href.toString();
 fetch(`https://ahmad-fathy-blog.herokuapp.com/api/posts/${title}`)
 .then(res => res.json())
 .then(data => {
-  console.log(data);
   if(data.success){
     appendPost(data.post);
     document.title = 'Ahmad Fathy - ' + data.post.title;
     document.getElementById('metaDesc').content = `
       <meta name="description" content="${data.post.title}"/>
     `
+    console.log(LINK);
     document.getElementById('facebook-btn').href = `http://www.facebook.com/sharer.php?p[url]=${LINK}`;
-    document.getElementById('twitter-btn').href = `https://twitter.com/intent/tweet?text=${LINK}`;
+    document.getElementById('twitter-btn').href = `https://twitter.com/intent/tweet?text=${encodeURI(LINK)} `;
   } else {
     appendError(data.msg)
   }
@@ -49,6 +49,5 @@ function appendError(err){
 let months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 function dateHelper(date){
   let dateArr = new Date(Number.parseInt(date)).toLocaleDateString().split('/');
-  console.log(dateArr);
   return months[dateArr[0] - 1] + ' ' + dateArr[1] + ' ' + dateArr[2];
 }
