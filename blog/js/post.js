@@ -25,6 +25,10 @@ let postContainer = document.getElementById('post');
 
 function appendPost(post){
   postContainer.innerHTML = htmlPost(post);
+  document.querySelectorAll('code').forEach(block => {
+    // then highlight each
+    hljs.highlightBlock(block);
+  });
 }
 
 
