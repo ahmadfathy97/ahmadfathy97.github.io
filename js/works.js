@@ -4,6 +4,12 @@ function disAciveAllBtns() {
   showBtns.forEach(btn=>{
     btn.classList.remove('btn-colorful');
   })
+  allWorks.forEach(work=>{
+    work.querySelector('img').removeAttribute('tabindex');
+    work.querySelectorAll('a').forEach(a => {
+      a.setAttribute('tabindex', -1)
+    });
+  })
 }
 // show a group of projects depending on specific button
 function showWorks(id) {
@@ -11,11 +17,19 @@ function showWorks(id) {
     if(id !== "all"){
       if(work.dataset.group == id){
         work.classList.remove('disable');
+        work.querySelector('img').setAttribute('tabindex', "0");
+        work.querySelectorAll('a').forEach(a => {
+          a.setAttribute('tabindex', "0")
+        });
       } else {
         work.classList.add('disable');
       }
     } else{
       work.classList.remove('disable');
+      work.querySelector('img').setAttribute('tabindex', "0");
+      work.querySelectorAll('a').forEach(a => {
+        a.setAttribute('tabindex', "0")
+      });
     }
   })
 }
@@ -37,7 +51,7 @@ function appendAllWorks(works) {
     myWorks.innerHTML += `
     <div class="work" data-group="${work.group}">
       <div class="img-container">
-        <img class="cover" src="images/projects/${work.image}" loading="lazy" alt="${work.name}">
+        <img class="cover" tabindex="0" src="images/projects/${work.image}" loading="lazy" alt="${work.name}">
       </div>
       <h3><span>${work.name}</span></h3>
       ${work.description}
@@ -57,6 +71,7 @@ function appendAllWorks(works) {
     let allWorksImg = selectAll('.work .img-container img');
     allWorksImg.forEach(img=>{
       img.addEventListener('click', openImg)
+      img.addEventListener('keyup', openImgByKeyboard)
     })
   })
 }
