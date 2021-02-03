@@ -65,7 +65,7 @@ a{
   /* background: rgba(22,22,22,.9); */
 }
 section{
-  margin: 2rem auto;
+  margin: 2rem auto 1rem;
   padding: .25rem;
 }
 .section-title{
@@ -200,4 +200,21 @@ footer .social{
     height: 100%;
     border-radius: 50%;
     box-shadow: 0px 5px 10px var(--black);
+}
+
+.navigation-btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto 2rem;
+}
+
+.navigation-btns  a{
+  background: var(--secondary-color)
+}
+.navigation-btns  a:hover{
+  background: var(--primary-color);
+  color: var(--bg-color);
+  transform: scale(1.05, 1.05);
 }

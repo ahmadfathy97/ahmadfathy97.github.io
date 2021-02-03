@@ -1,13 +1,26 @@
 let params = new URLSearchParams(document.location.search.substring(1)),
-name = params.get("name");
-document.getElementById('section-title').textContent = '#' + name
-fetch(`https://ahmad-fathy-blog.herokuapp.com/api/posts/tags/${name}`)
+tagName = params.get("name"),
+page = Number.parseInt(params.get("page")) || 1;
+document.getElementById('section-title').textContent = '#' + tagName;
+let naviBtns = document.querySelector('.navigation-btns');
+fetch(`https://ahmad-fathy-blog.herokuapp.com/api/posts/tags/${tagName}?page=${page}`)
 .then(res => res.json())
 .then(data => {
   if(data.posts && data.posts.length){
     appendPosts(data.posts);
+    if(data.prev){
+      console.log(555);
+      naviBtns.innerHTML += `
+        <a aria-label="previous page" class="post-tag" href="/blog/tag/?name=${tagName}&page=${page - 1}">&lt; prev</a>
+      `
+    }
+    if(data.next){
+      naviBtns.innerHTML += `
+        <a aria-label="next page" class="post-tag" href="/blog/tag/?name=${tagName}&page=${page + 1}">next &gt;</a>
+      `
+    }
   } else {
-    appendError('no posts found with this tag')
+    appendError('no posts found')
   }
 })
 .catch(err=>{
