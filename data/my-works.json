@@ -192,6 +192,28 @@
       "group": "cooperated"
     },
     {
+      "name": "Simple Landing Page",
+      "description": "<div class='work-desc'><p>Landing page</p></div>",
+      "preview": "https://abc-landing-page.netlify.app/",
+      "code": "https://github.com/ahmadfathy97/simple-landing-page",
+      "image": "abc-landing-page.png",
+      "languages": [
+        {
+          "name": "html",
+          "icon": "html5.png"
+        },
+        {
+          "name": "css",
+          "icon": "css3.png"
+        },
+        {
+          "name": "js",
+          "icon": "js.png"
+        }
+      ],
+      "group": "frontend"
+    },
+    {
       "name": "Dad Jokes",
       "description": "<div class='work-desc'><p>some funky dad jokes.</p></div>",
       "preview": "https://funky-dad-jokes.netlify.app/",
