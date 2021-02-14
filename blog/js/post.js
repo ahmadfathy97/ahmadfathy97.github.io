@@ -9,10 +9,19 @@ fetch(`https://ahmad-fathy-blog.herokuapp.com/api/posts/${title}`)
     document.title = 'Ahmad Fathy - ' + data.post.title;
     document.getElementById('metaDesc').content = `
       <meta name="description" content="${data.post.title}"/>
-    `
-    console.log(LINK);
+    `;
     document.getElementById('facebook-btn').href = `http://www.facebook.com/sharer.php?p[url]=${LINK}`;
     document.getElementById('twitter-btn').href = `https://twitter.com/intent/tweet?text=${encodeURI(LINK)} `;
+    var disqus_config = function () {
+    this.page.url = LINK;
+    this.page.identifier = data.post._id;
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://ahmadfathy.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
   } else {
     appendError(data.msg)
   }
