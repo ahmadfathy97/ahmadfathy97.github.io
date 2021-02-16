@@ -7,9 +7,8 @@ fetch(`https://ahmad-fathy-blog.herokuapp.com/api/posts/${title}`)
   if(data.success){
     appendPost(data.post);
     document.title = 'Ahmad Fathy - ' + data.post.title;
-    document.getElementById('metaDesc').content = `
-      <meta name="description" content="${data.post.title}"/>
-    `;
+    document.getElementById('metaDesc').content = `${data.post.title}`;
+    document.getElementById('twitterDesc').content = `${data.post.title}`;
     document.getElementById('facebook-btn').href = `http://www.facebook.com/sharer.php?p[url]=${LINK}`;
     document.getElementById('twitter-btn').href = `https://twitter.com/intent/tweet?text=${encodeURI(LINK)} `;
     var disqus_config = function () {
