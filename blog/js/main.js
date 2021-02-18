@@ -9,6 +9,25 @@ Promise.all([
   if(data[1].success){
     appendPosts("popular", data[1].posts)
   }
+  // appending ads
+  let adContainers = document.querySelectorAll('.google-ad');
+  adContainers.forEach(ad=>{
+    ad.innerHTML = `
+      <h4 style="padding:.5rem;background: #5d6aff; color: #f8f8f8;margin: .25rem">Google Ad</h4>
+      <div style="padding:.5rem;border: 2px solid #5d6aff; margin: .25rem">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- ad -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-3134371406804208"
+           data-ad-slot="5581764436"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    `;
+  })
 })
 .catch(err=>{
   console.log(err);
