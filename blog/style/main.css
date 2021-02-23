@@ -44,13 +44,13 @@ a{
   padding: .25rem
 }
 .blog-nav .page-title{
-  font-size: clamp(22px, 4vw, 24px);
+  font-size: clamp(22px, 4vmin, 24px);
 }
 .blog-nav .tags{
-  font-size: clamp(22px, 4vw, 24px);
+  font-size: clamp(20px, 4vw, 24px);
   border-radius: 10px;
   border: 1px solid var(--secondary-color);
-  padding: 1px 1.5rem;
+  padding: 1px 1rem;
 }
 .blog-nav .tags:hover{
   background: var(--secondary-color)
@@ -61,7 +61,7 @@ a{
   max-width: 680px;
   min-height: 90vh;
   margin: 2rem auto;
-  padding: 1rem 1.5rem;
+  padding: 1rem;
   /* background: rgba(22,22,22,.9); */
 }
 section{
@@ -69,7 +69,7 @@ section{
   padding: .25rem;
 }
 .section-title{
-  font-size: 28px;
+  font-size: clamp(24, 5vmin ,28);
   color: #f8f8f8;
 }
 
@@ -92,9 +92,12 @@ section{
   background: #333;
   padding: 1rem 1.5rem;
 }
+.post-container{
+  min-height: 300px;
+}
 .post-title a{
   color: #e8e8e8;
-  font-size: clamp(20px, 4vw, 22px);
+  font-size: clamp(20px, 24px, 26px);
   margin: .5rem auto;
 }
 
@@ -126,6 +129,7 @@ section{
   background: transparent;
 }
 .post-container > .post{
+  margin-top: 2rem !important;
   width: 100%;
   background: transparent;
 }
@@ -141,7 +145,7 @@ section{
   max-width: 100%;
   min-width: 60%;
   display: block;
-  margin: auto
+  margin: 1rem auto;
 }
 .post ul li{
   margin: 2px 20px 2px 20px;
@@ -175,6 +179,19 @@ section{
   background: var(--secondary-color)
 }
 
+.post-container > .post h2{
+  font-size: clamp(20px, 22px, 24px);
+}
+.post-container > .post h3{
+  font-size: clamp(18px, 20px, 22px);
+}
+.post-container > .post h4{
+  font-size: clamp(16px, 18px, 20px);
+}
+
+.post-container > .post p{
+  font-size: clamp(14px, 16px, 18px);
+}
 .rtl{
   text-align: right;
   direction: rtl;
