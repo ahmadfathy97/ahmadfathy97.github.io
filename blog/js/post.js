@@ -10,7 +10,7 @@ fetch(`https://ahmad-fathy-blog.herokuapp.com/api/posts/${title}`)
     document.getElementById('metaDesc').content = `${data.post.title}`;
     document.getElementById('twitterDesc').content = `${data.post.title}`;
     document.getElementById('facebook-btn').href = `http://www.facebook.com/sharer.php?p[url]=${LINK}`;
-    document.getElementById('twitter-btn').href = `https://twitter.com/intent/tweet?text=${encodeURI(LINK)} `;
+    document.getElementById('twitter-btn').href = `https://twitter.com/intent/tweet?text=${data.post.title} ${data.post.tags.map(tag => '%23'+tag).join(' ')} ${encodeURI(LINK)}`;
     var disqus_config = function () {
     this.page.url = LINK;
     this.page.identifier = data.post._id;
@@ -43,7 +43,7 @@ function appendPost(post){
 function htmlPost(post){
   return `
   <div class="post ${post.dir == 'rtl' ? 'rtl' : ''}" >
-    <h3 class="post-title"><a href="/blog/post/?title=${post.dashedTitle}">${post.title}</a></h3>
+    <h1 class="post-title"><a href="/blog/post/?title=${post.dashedTitle}">${post.title}</a></h1>
     <h5>${dateHelper(post.created_at)}</h5>
     <div>${post.sanitizedHtml}</div>
     <div class="post-tags">

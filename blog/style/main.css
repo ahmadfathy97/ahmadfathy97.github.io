@@ -179,6 +179,9 @@ section{
   background: var(--secondary-color)
 }
 
+.post-container > .post .post-title{
+  text-align: center;
+}
 .post-container > .post h2{
   font-size: clamp(20px, 22px, 24px);
 }
