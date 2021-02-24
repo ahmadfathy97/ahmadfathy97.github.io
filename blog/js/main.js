@@ -33,7 +33,7 @@ function appendPosts(type, posts){
 
 function htmlPost(post){
   return `
-  <div class="post " >
+  <div class="post ${post.dir == 'rtl' ? 'rtl' : ''}" >
     <h3 class="post-title" dir="auto"><a href="/blog/post?title=${post.dashedTitle}">${post.title}</a></h3>
     <h5>${dateHelper(post.created_at)}</h5>
     <div class="post-tags">
