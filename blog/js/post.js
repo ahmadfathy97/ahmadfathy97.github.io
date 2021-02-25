@@ -42,14 +42,14 @@ function appendPost(post){
 
 function htmlPost(post){
   return `
-  <div class="post ${post.dir == 'rtl' ? 'rtl' : ''}" >
+  <article class="post ${post.dir == 'rtl' ? 'rtl' : ''}" >
     <h1 class="post-title"><a href="/blog/post/?title=${post.dashedTitle}">${post.title}</a></h1>
-    <h5>${dateHelper(post.created_at)}</h5>
+    <h5 class="date">${dateHelper(post.created_at)}</h5>
     <div>${post.sanitizedHtml}</div>
     <div class="post-tags">
       ${post.tags.map(tag => '<a href="/blog/tag?name=' + tag + '" class="post-tag">#' + tag + '</a>' ).join('')}
     </div>
-  </div>
+  </article>
   `
 }
 

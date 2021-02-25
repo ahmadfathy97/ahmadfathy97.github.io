@@ -109,6 +109,9 @@ section{
   color: #bbb;
   margin: 0 .5rem .25rem;
 }
+.post .date{
+  text-align: center;
+}
 .post-tags{
   margin: 1rem auto;
 }
@@ -137,7 +140,7 @@ section{
   color: var(--secondary-color);
 }
 
-.post img{
+.post img, .post video{
   background: var(--primary-color);
   border: 3px solid var(--secondary-color);
   padding: 3px;
