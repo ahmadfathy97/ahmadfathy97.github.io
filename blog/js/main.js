@@ -44,6 +44,7 @@ function htmlPost(post){
 }
 let months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 function dateHelper(date){
-  let dateArr = new Date(Number.parseInt(date)).toLocaleDateString().split('/');
-  return months[dateArr[0] - 1] + ' ' + dateArr[1] + ' ' + dateArr[2];
+  // let dateArr = new Date(Number.parseInt(date)).toLocaleDateString().split('/');
+  // return months[dateArr[0] - 1] + ' ' + dateArr[1] + ' ' + dateArr[2];
+  return new Date(Number.parseInt(date)).toDateString();
 }
