@@ -58,9 +58,9 @@ function appendError(err){
   postContainer.innerHTML = `<p class="err">${err}</p>`;
 }
 
-let months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 function dateHelper(date){
+  let options = {year: 'numeric', month: 'long', day: 'numeric' };
   // let dateArr = new Date(Number.parseInt(date)).toLocaleDateString().split('/');
   // return months[dateArr[0] - 1] + ' ' + dateArr[1] + ' ' + dateArr[2];
-  return new Date(Number.parseInt(date)).toDateString();
+  return new Date(Number.parseInt(date)).toLocaleDateString('en-US', options);
 }
