@@ -126,7 +126,7 @@
       "description": "<div class='work-desc'><p>This is a blog website.</p><p>In this blog website you can do a lot of things:</p><ul><li>post an article or edit it or delete it</li><li>follow some one</li><li>like an article</li><li>comment on an article</li><li>search for some one</li><li>reset your password if you forget it</li><li>edit your info</li><li>you also get some notifications</li></ul></div>",
       "preview": "https://habshtakanat.netlify.app/",
       "code": "https://github.com/ahmadfathy97/using-my-api-with-vue/",
-      "image": "blog.jpg",
+      "image": "blog.PNG",
       "languages": [
         {
           "name": "vue.js",
