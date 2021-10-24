@@ -23,6 +23,6 @@ function appendTags(tags){
 function htmlTags(tag/*, color*/){
   /*style="background:${color}"*/
   return `
-    <a href="/blog/tag?name=${tag_id}" class="post-tag">#${tag._id} (${tag.num})</a>
+    <a href="/blog/tag?name=${tag._id}" class="post-tag">#${tag._id} (${tag.num})</a>
   `
 }
