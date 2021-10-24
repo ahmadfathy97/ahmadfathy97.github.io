@@ -12,17 +12,17 @@ let tagsContainer = document.getElementById('tags-container');
 // let colors = ['#5B2C6F', '#2E4053', '#21618C', '#D35400', '#241780', '#1B4F72'];
 function appendTags(tags){
   tagsContainer.innerHTML = '';
-  for (const [key, value] of Object.entries(tags)) {
-    tagsContainer.innerHTML += htmlTags(key, value /*, colors[Math.floor(Math.random() * colors.length)]*/);
-  }
-  // tags.forEach(tag =>{
-  //   tagsContainer.innerHTML += htmlTags(tag /*, colors[Math.floor(Math.random() * colors.length)]*/);
-  // })
+//   for (const [key, value] of Object.entries(tags)) {
+//     tagsContainer.innerHTML += htmlTags(key, value /*, colors[Math.floor(Math.random() * colors.length)]*/);
+//   }
+  tags.forEach(tag =>{
+    tagsContainer.innerHTML += htmlTags(tag /*, colors[Math.floor(Math.random() * colors.length)]*/);
+  })
 }
 
-function htmlTags(key, value/*, color*/){
+function htmlTags(tag/*, color*/){
   /*style="background:${color}"*/
   return `
-    <a href="/blog/tag?name=${key}" class="post-tag">#${key} (${value})</a>
+    <a href="/blog/tag?name=${tag_id}" class="post-tag">#${tag._id} (${tag.num})</a>
   `
 }
