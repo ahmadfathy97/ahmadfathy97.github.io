@@ -22,7 +22,7 @@
       "name": "برايل بالمصري",
       "description": "<div class='work-desc'><p>description not found 404 :)</p></div>",
       "preview": "https://braille-belmasry.netlify.app/",
-      "image": "braille-belmasry.png",
+      "image": "braille-belmasry.PNG",
       "languages": [
         {
           "name": "bootstrap",
@@ -96,7 +96,7 @@
       "name": "Genuine",
       "description": "<div class='work-desc'><p>Genuine is an Ecommerce website you can see the products or search for specific one and buy it by using PayPal, this website has a dashboard that enabled the owner to add and update and remove the products and also enabling him to know who bought and what he bought.</p></div>",
       "preview": "http://genuine-beta.herokuapp.com/",
-      "image": "genuine.jpg",
+      "image": "genuine.JPG",
       "languages": [
         {
           "name": "express.js",
@@ -152,7 +152,7 @@
       "description": "<div class='work-desc'><p>robot chat with sound</p><ul><li>elite can tell you his name and his age</li><li>elite can tell you some jokes</li><li>elite can tell you the time and the date</li><li>elite can answer 'Yes or No' questions</li><li>elite can tell you some other stuff</li></ul></div>",
       "preview": "http://elitechat.netlify.com",
       "code": "https://github.com/ahmadfathy97/Elite-Chat",
-      "image": "elite-chat.jpg",
+      "image": "elite-chat.JPG",
       "languages": [
         {
           "name": "html",
@@ -204,7 +204,7 @@
       "description": "<div class='work-desc'><p>Techno Egaby is an initiative from the Department of Education Technology, Faculty of Specific Education, Fayoum University, to employ tools and content of e-learning to serve the community to raise awareness against the Corona virus.</p></div>",
       "preview": "http://techno-egaby.c1.biz/",
       "code": "https://github.com/ahmadfathy97/techno-Egaby",
-      "image": "techno-egaby.jpg",
+      "image": "techno-egaby.JPG",
       "languages": [
         {
           "name": "php",
@@ -226,7 +226,7 @@
       "description": "<div class='work-desc'><p>Landing page</p></div>",
       "preview": "https://abc-landing-page.netlify.app/",
       "code": "https://github.com/ahmadfathy97/simple-landing-page",
-      "image": "abc-landing-page.png",
+      "image": "abc-landing-page.PNG",
       "languages": [
         {
           "name": "html",
@@ -248,7 +248,7 @@
       "description": "<div class='work-desc'><p>some funky dad jokes.</p></div>",
       "preview": "https://funky-dad-jokes.netlify.app/",
       "code": "https://github.com/ahmadfathy97/funky-jokes",
-      "image": "dad-jokes.png",
+      "image": "dad-jokes.PNG",
       "languages": [
         {
           "name": "vuex",
@@ -266,7 +266,7 @@
       "description": "<div class='work-desc'><p>Laptops shop landing page.</p></div>",
       "preview": "https://laptops-shop.netlify.app/",
       "code": "https://github.com/ahmadfathy97/laptops-shop",
-      "image": "laptops-shop.png",
+      "image": "laptops-shop.PNG",
       "languages": [
         {
           "name": "html",
@@ -288,7 +288,7 @@
       "description": "<div class='work-desc'><p>I used to hate this game so guess what? I made it.</p></div>",
       "preview": "https://very-stupid-game.netlify.com/",
       "code": "https://github.com/ahmadfathy97/Stupid-Game",
-      "image": "stupid-game.jpg",
+      "image": "stupid-game.JPG",
       "languages": [
         {
           "name": "html",
@@ -309,7 +309,7 @@
       "name": "My SVG collection",
       "description": "<div class='work-desc'><p>My SVG Collection</p></div>",
       "preview": "https://github.com/ahmadfathy97/My-SVG-Collection",
-      "image": "svg.jpg",
+      "image": "svg.JPG",
       "languages": [
         {
           "name": "sass",
@@ -331,7 +331,7 @@
       "description": "<div class='work-desc'><p>I don't know what the heck is this anyway :)</p></div>",
       "preview": "https://flaming-rain.netlify.com/",
       "code": "https://github.com/ahmadfathy97/flaming-rain-game",
-      "image": "flaming-rain.jpg",
+      "image": "flaming-rain.JPG",
       "languages": [
         {
           "name": "html",
@@ -353,7 +353,7 @@
       "description": "<div class='work-desc'><p>this panda is one of my favourit works, I know it is pretty simple and I can make it better but I like it as it is and I love to put it here ♥.</p></div>",
       "preview": "https://codepen.io/ahmadfathy/full/apRrmm",
       "code": "https://codepen.io/ahmadfathy/pen/apRrmm",
-      "image": "panda.jpg",
+      "image": "panda.JPG",
       "languages": [
         {
           "name": "html",
