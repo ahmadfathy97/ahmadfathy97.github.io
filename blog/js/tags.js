@@ -1,4 +1,4 @@
-fetch('https://ahmad-fathy-blog.herokuapp.com/api/posts/tags')
+fetch('https://ahmadfathy.onrender.com/api/posts/tags')
 .then(res => res.json())
 .then(data => {
   if(data.success){
