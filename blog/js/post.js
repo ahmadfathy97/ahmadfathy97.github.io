@@ -1,7 +1,7 @@
 let params = new URLSearchParams(document.location.search.substring(1)),
 title = params.get("title");
 const LINK = window.location.href.toString();
-fetch(`https://ahmad-fathy-blog.herokuapp.com/api/posts/${title}`)
+fetch(`https://ahmadfathy.onrender.com/api/posts/${title}`)
 .then(res => res.json())
 .then(data => {
   if(data.success){
