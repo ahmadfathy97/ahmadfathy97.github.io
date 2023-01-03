@@ -3,7 +3,7 @@ tagName = params.get("name"),
 page = Number.parseInt(params.get("page")) || 1;
 document.getElementById('section-title').textContent = '#' + tagName;
 let naviBtns = document.querySelector('.navigation-btns');
-fetch(`https://ahmad-fathy-blog.herokuapp.com/api/posts/tags/${tagName}?page=${page}`)
+fetch(`https://ahmadfathy.onrender.com/api/posts/tags/${tagName}?page=${page}`)
 .then(res => res.json())
 .then(data => {
   if(data.posts && data.posts.length){
