@@ -1,6 +1,6 @@
 Promise.all([
-  fetch('https://ahmad-fathy-blog.herokuapp.com/api/posts/recent-posts').then(res => res.json()),
-  fetch('https://ahmad-fathy-blog.herokuapp.com/api/posts/popular-posts').then(res => res.json())
+  fetch('https://ahmadfathy.onrender.com/api/posts/recent-posts').then(res => res.json()),
+  fetch('https://ahmadfathy.onrender.com/api/posts/popular-posts').then(res => res.json())
 ])
 .then(data => {
   if(data[0].success){
